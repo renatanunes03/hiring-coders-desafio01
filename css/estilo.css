@@ -5,15 +5,19 @@
 html{
     scroll-behavior: smooths;
 }
-.section-container{   /* cada section-container ocupada 100% do monitor, no html eu tenho 2 section-containers  */
-    height: 100vh;
+h3{
+    color:orange;
+    text-align: center;
+}
+#logoloja{
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+}
+#imagemlogo{
+    margin-bottom: 30px;
+}
 }
 .background-section-one{
-    background-image: url('../assets/27230.jpg');
+    background-image: url('');
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -46,7 +50,9 @@ input{
     border-radius: 12px;
     background-color: black;
 }
-
+#destaque{
+    margin-bottom: 30px;
+}
 form{
     display: grid;
 }
